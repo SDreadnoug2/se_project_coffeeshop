@@ -24,8 +24,20 @@
   font-weight: bold;
 }
 
+.footer__social-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s linear;
+}
+
+.footer__social-link:hover {
+  color: #c1c1c1;
+}
+
 .footer__list-item {
   margin-bottom: 16px;
+  display: flex;
+  align-items: center;
 }
 
 .footer__list-item:last-child {

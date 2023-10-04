@@ -56,12 +56,14 @@
         />
         <div class="header__footer">
           <div class="header__hours">
-            <p>Hours:</p>
-            <p>Monday - Friday (10:00 - 19:00)</p>
-            <p>Saturday - Sunday (11:00 - 18:00)</p>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
           <div class="header__address">
-            <p>200 Success Avenue, The Town of Triple Peaks</p>
+            <p class="header__paragraph">
+              200 Success Avenue, The Town of Triple Peaks
+            </p>
           </div>
         </div>
       </header>
@@ -105,7 +107,7 @@
         </section>
         <section id="booking" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form class="reservation__form form">
+          <form class="reservation__form form" name="form">
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">
                 Name *
@@ -177,7 +179,7 @@
           </p>
           <div class="menu__cards">
             <ul class="card">
-              <li class="card__title">Filter</li>
+              <h3 class="card__title">Filter</h3>
               <li class="card__list-item">
                 Regular(12 oz) <span class="card__list-divider"></span> $1
               </li>
@@ -197,7 +199,7 @@
               </li>
             </ul>
             <ul class="card">
-              <li class="card__title">Espresso</li>
+              <h3 class="card__title">Espresso</h3>
               <li class="card__list-item">
                 Macchiato <span class="card__list-divider"></span> $2.25
               </li>
@@ -213,7 +215,7 @@
               </li>
             </ul>
             <ul class="card">
-              <li class="card__title">Baked Goods</li>
+              <h3 class="card__title">Baked Goods</h3>
               <li class="card__list-item">
                 Almond Croissant <span class="card__list-divider"></span> $2
               </li>
@@ -263,21 +265,25 @@
             class="footer__logo"
           />
           <ul class="footer__list">
-            <li class="footer__social-heading">Social media</li>
-            <li class="footer__list-item">
-              <img
-                src="./images/facebook_white.svg"
-                class="footer__social-icon"
-                alt="facebook logo"
-              />Facebook
-            </li>
-            <li class="footer__list-item">
-              <img
-                src="./images/instagram_white.svg"
-                alt="instagram logo"
-                class="footer__social-icon"
-              />Instagram
-            </li>
+            <h3 class="footer__social-heading">Social media</h3>
+            <a class="footer__social-link" href="#">
+              <li class="footer__list-item">
+                <img
+                  src="./images/facebook_white.svg"
+                  class="footer__social-icon"
+                  alt="facebook logo"
+                />Facebook
+              </li>
+            </a>
+            <a class="footer__social-link" href="#">
+              <li class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="instagram logo"
+                  class="footer__social-icon"
+                />Instagram
+              </li>
+            </a>
           </ul>
         </div>
         <p class="footer__copyright">©2023 Nicholas Milton</p>

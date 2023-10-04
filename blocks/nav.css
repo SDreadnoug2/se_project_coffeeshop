@@ -15,3 +15,12 @@
   column-gap: 20px;
   list-style-type: none;
 }
+
+.nav__link {
+  color: black;
+  transition: color 0.3s linear;
+  text-decoration: none;
+}
+.nav__link:hover {
+  color: #2f80ed;
+}

@@ -15,7 +15,7 @@
   display: flex;
   margin-bottom: 16px;
   list-style-type: none;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .card__list-item:last-child {
