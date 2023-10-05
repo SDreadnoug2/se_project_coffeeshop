@@ -16,18 +16,26 @@
 
 .footer__list {
   margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
 .footer__social-heading {
   margin-bottom: 20px;
+  margin-top: 0;
   font-weight: bold;
+}
+
+.fooster__social-heading-list {
+  list-style-type: none;
 }
 
 .footer__social-link {
   color: white;
   text-decoration: none;
   transition: color 0.3s linear;
+  display: flex;
+  align-items: center;
 }
 
 .footer__social-link:hover {
@@ -36,8 +44,6 @@
 
 .footer__list-item {
   margin-bottom: 16px;
-  display: flex;
-  align-items: center;
 }
 
 .footer__list-item:last-child {
