@@ -12,6 +12,8 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
+  display: flex;
+  align-self: flex-end;
 }
 
 .card__list-item {
