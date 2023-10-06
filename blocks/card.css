@@ -2,6 +2,7 @@
   width: 540px;
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 .card__title {
@@ -11,10 +12,6 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-}
-
-.card__title-list {
-  list-style-type: none;
 }
 
 .card__list-item {
@@ -31,4 +28,10 @@
 .card__list-divider {
   flex-grow: 1;
   border-bottom: 1px solid black;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
